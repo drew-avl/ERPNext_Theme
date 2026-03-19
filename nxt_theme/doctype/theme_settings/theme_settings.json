@@ -1,0 +1,97 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "creation": "2024-08-20 16:02:44.380797",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "section_break_zuvh",
+    "sidebar_logo",
+    "sidebar_text",
+    "column_break_czh4",
+    "title",
+    "favicon_image",
+    "section_break_pydo",
+    "skin",
+    "column_break_ulnu",
+    "primary_color",
+    "secondary_color"
+  ],
+  "fields": [
+    {
+      "fieldname": "section_break_zuvh",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "sidebar_logo",
+      "fieldtype": "Attach",
+      "label": "Sidebar Logo"
+    },
+    {
+      "fieldname": "column_break_czh4",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "title",
+      "fieldtype": "Data",
+      "label": "Title"
+    },
+    {
+      "fieldname": "favicon_image",
+      "fieldtype": "Attach",
+      "label": "Favicon Image"
+    },
+    {
+      "fieldname": "sidebar_text",
+      "fieldtype": "Data",
+      "label": "Sidebar Text"
+    },
+    {
+      "fieldname": "column_break_ulnu",
+      "fieldtype": "Column Break"
+    },
+    {
+      "fieldname": "primary_color",
+      "fieldtype": "Color",
+      "label": "Primary Color"
+    },
+    {
+      "fieldname": "secondary_color",
+      "fieldtype": "Color",
+      "label": "Secondary Color"
+    },
+    {
+      "fieldname": "section_break_pydo",
+      "fieldtype": "Section Break"
+    },
+    {
+      "fieldname": "skin",
+      "fieldtype": "Select",
+      "label": "Skin",
+      "options": "echo\nrazor\nexort\ndagger\nravage\nhook\nviper\nshuriken\nraze\nhavoc\nhurricane"
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "issingle": 1,
+  "links": [],
+  "modified": "2024-10-11 01:02:50.835565",
+  "modified_by": "Administrator",
+  "module": "NXT Theme",
+  "name": "Theme Settings",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "print": 1,
+      "read": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": []
+}

@@ -1,14 +1,14 @@
-<svg width="760" height="180" viewBox="0 0 760 180" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="18" width="144" height="144" rx="28" fill="#1D4F91"/>
-  <path d="M34 125V55H48L88 106V55H102V125H88L48 73V125H34Z" fill="white"/>
-  <path d="M112 60H130L108 95H130V108H90V96L112 60Z" fill="#D7E6FA"/>
-  <path d="M114 108H130V126H114V108Z" fill="#D7E6FA"/>
-  <path d="M184 70H202V126H184V70Z" fill="#0F172A"/>
-  <path d="M214 70H235L268 112V70H286V126H267L232 82V126H214V70Z" fill="#0F172A"/>
-  <path d="M302 70H356V86H321V92H352V107H321V126H302V70Z" fill="#0F172A"/>
-  <path d="M365 70H386L405 102L424 70H445L416 117V126H397V117L365 70Z" fill="#0F172A"/>
-  <path d="M468 70H525V86H487V92H520V107H487V126H468V70Z" fill="#0F172A"/>
-  <path d="M536 70H556V126H536V70Z" fill="#0F172A"/>
-  <path d="M568 70H588V110H631V126H568V70Z" fill="#0F172A"/>
-  <path d="M648 70H666V91H686V70H704V126H686V106H666V126H648V70Z" fill="#0F172A"/>
+<svg width="800" height="180" viewBox="0 0 800 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="N45 Technologies">
+  <defs>
+    <linearGradient id="wm" x1="0" y1="0" x2="160" y2="160" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4F91"/>
+      <stop offset="1" stop-color="#163E72"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="10" width="160" height="160" rx="34" fill="url(#wm)"/>
+  <path d="M46 126V54h18l39 50V54h18v72h-18L64 76v50H46z" fill="white"/>
+  <path d="M123 60h14v27h12v13h-12v17h-13v-17h-25V89l24-29zm1 27V76l-9 11h9z" fill="#A9BDD3"/>
+  <path d="M155 60h-24v13h12c8 0 14 6 14 14v1c0 9-7 15-16 15h-14V90h12c3 0 5-2 5-4v-1c0-2-2-4-5-4h-20V60h36z" fill="#A9BDD3"/>
+  <text x="208" y="92" fill="#0F172A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="0.5">N45</text>
+  <text x="208" y="134" fill="#536277" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="28" font-weight="500" letter-spacing="4">TECHNOLOGIES</text>
 </svg>

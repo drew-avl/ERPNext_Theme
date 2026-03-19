@@ -5,7 +5,6 @@ app_description = "Enhanced User Interface and User Experience for Frappe Applic
 app_email = "support@nextash.com"
 app_license = "gpl-2.0"
 
-# N45 branding assets
 app_logo_url = "/assets/nxt_theme/images/shape.svg"
 
 website_context = {
@@ -13,7 +12,7 @@ website_context = {
     "splash_image": "/assets/nxt_theme/images/shape.svg",
 }
 
-# Keep original bundles, then layer N45 overrides after them.
+# Source bundles loaded on Desk
 app_include_css = [
     "nxt_theme.bundle.css",
     "n45_overrides.bundle.css",

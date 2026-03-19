@@ -1,6 +1,16 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect x="16" y="16" width="224" height="224" rx="44" fill="#1D4F91"/>
-  <path d="M64 182V74H86L144 149V74H166V182H146L86 105V182H64Z" fill="white"/>
-  <path d="M180 82H206L174 132H206V150H150V134L180 82Z" fill="#D7E6FA"/>
-  <path d="M183 150H206V182H183V150Z" fill="#D7E6FA"/>
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="N45 Technologies">
+  <defs>
+    <linearGradient id="n45bg" x1="28" y1="22" x2="214" y2="230" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4F91"/>
+      <stop offset="1" stop-color="#163E72"/>
+    </linearGradient>
+    <linearGradient id="n45accent" x1="148" y1="52" x2="208" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A9BDD3" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#6E8198" stop-opacity="0.88"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="220" height="220" rx="52" fill="url(#n45bg)"/>
+  <path d="M68 184V72h24l52 67V72h24v112h-24l-52-66v66H68z" fill="white"/>
+  <path d="M170 82h22v44h18v18h-18v26h-18v-26h-42v-16l38-46zm4 44V108l-15 18h15z" fill="url(#n45accent)"/>
+  <path d="M214 82h-34v18h16c11 0 20 8 20 20v2c0 13-10 24-24 24h-20v-18h18c5 0 8-3 8-7v-1c0-4-3-6-7-6h-29V82h52v0z" fill="url(#n45accent)"/>
 </svg>
