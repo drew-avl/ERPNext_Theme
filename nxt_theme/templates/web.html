@@ -1,0 +1,8 @@
+{% extends "templates/web.html" %}
+
+{% block navbar_brand %}
+<a class="navbar-brand" href="/app">
+    <img src="{{ theme_settings.sidebar_logo or '/assets/nxt_theme/images/shape.svg' }}" alt="N45" style="height: 28px; width: auto; margin-right: 10px;">
+    <span>{{ theme_settings.sidebar_text or theme_settings.title or "N45 Technologies" }}</span>
+</a>
+{% endblock %}

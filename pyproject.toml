@@ -1,0 +1,18 @@
+[project]
+name = "nxt_theme"
+authors = [
+    { name = "NexTash (SMC-PVT) Ltd", email = "support@nextash.com" }
+]
+description = "Enhanced User Interface and User Experience for Frappe Applications"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench.dev-dependencies]

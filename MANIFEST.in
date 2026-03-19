@@ -1,0 +1,22 @@
+include *.md
+include *.txt
+include *.toml
+recursive-include nxt_theme *.css
+recursive-include nxt_theme *.csv
+recursive-include nxt_theme *.html
+recursive-include nxt_theme *.ico
+recursive-include nxt_theme *.js
+recursive-include nxt_theme *.json
+recursive-include nxt_theme *.md
+recursive-include nxt_theme *.png
+recursive-include nxt_theme *.py
+recursive-include nxt_theme *.scss
+recursive-include nxt_theme *.svg
+recursive-include nxt_theme *.txt
+recursive-include nxt_theme *.woff
+recursive-include nxt_theme *.woff2
+recursive-include nxt_theme *.ttf
+recursive-include nxt_theme *.eot
+recursive-include nxt_theme *.webp
+recursive-include nxt_theme *.map
+recursive-exclude nxt_theme *.pyc
